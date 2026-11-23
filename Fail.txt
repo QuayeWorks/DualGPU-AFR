@@ -1,0 +1,1177 @@
+Intel Flash Detected
+Erase block size detected
+
+Flash init complete
+Flash base    = 0xFC000000
+Command set   = 0x00000001
+Memory layout = 0x04020202
+Device size   = 0x04000000
+Erase regions = 0x00000002
+Num blocks    = 0x00000103
+Boot mode     = 0x000000D7
+R0 offset     = 0x00000000
+R0 size       = 0x00010000
+R0 blocks     = 0x00000004
+
+
+FLASH UPLOADER SOFTWARE (X200.0.1a)
+
+=========================================================
+Reprogramming Bootstrap
+-----------------------
+Verifying RAM image(s)
+ - Verified image CRC in RAM
+Erasing Flash
+RAM start        = 0x00020000
+RAM length       = 0x0000A000
+Flash abs start  = 0xFFFF6000
+Flash offset     = 0x03FF6000
+Erase start off  = 0x03FF0000
+Erase end off    = 0x04000000
+Erase start abs  = 0xFFFF0000
+Erase end abs    = 0xFFFFFFFF
+Erase sectors    = 1
+
+Erasing sector 1 / 1
+Erase offset = 0x03FF0000
+Erase abs    = 0xFFFF0000
+Call flash_protect
+Sector erase complete
+
+Verify erased flash range begin
+Verify offset = 0x03FF0000
+Verify length = 0x00010000
+Verify erased bytes 0x00004000 / 0x00010000
+Verify erased bytes 0x00008000 / 0x00010000
+Verify erased bytes 0x0000C000 / 0x00010000
+Verify erased bytes 0x00010000 / 0x00010000
+Verify erased flash range complete
+Complete
+Writing:
+Writing bytes 0x00000000 / 0x0000A000
+Write offset = 0x03FF6000
+Write abs    = 0xFFFF6000
+RAM source   = 0x00020000
+Unlock Status = 0x00000000
+Write Status = 0x00000067
+**** Flash write failure ****
+Status = 0x00000067
+Writing Failed
+
+=========================================================
+Reprogramming Pseudorandom Zeroization Table (PZT)
+-------------------------------------------------
+Verifying RAM image(s)
+ - Verified image CRC in RAM
+Erasing Flash
+RAM start        = 0x00800000
+RAM length       = 0x00002000
+Flash abs start  = 0xFFA00000
+Flash offset     = 0x03A00000
+Erase start off  = 0x03A00000
+Erase end off    = 0x03A10000
+Erase start abs  = 0xFFA00000
+Erase end abs    = 0xFFA0FFFF
+Erase sectors    = 1
+
+Erasing sector 1 / 1
+Erase offset = 0x03A00000
+Erase abs    = 0xFFA00000
+Call flash_protect
+Sector erase complete
+
+Verify erased flash range begin
+Verify offset = 0x03A00000
+Verify length = 0x00010000
+Verify erased bytes 0x00004000 / 0x00010000
+Verify erased bytes 0x00008000 / 0x00010000
+Verify erased bytes 0x0000C000 / 0x00010000
+Verify erased bytes 0x00010000 / 0x00010000
+Verify erased flash range complete
+Complete
+Writing:
+Writing bytes 0x00000000 / 0x00002000
+Write offset = 0x03A00000
+Write abs    = 0xFFA00000
+RAM source   = 0x00800000
+Unlock Status = 0x00000000
+Write Status = 0x00000067
+**** Flash write failure ****
+Status = 0x00000067
+Writing Failed
+
+=========================================================
+Reprogramming OFS & GNU Diagnostics Combined
+--------------------------------------------
+Download Table update: OFS & GNU Diagnostics images
+
+CRC debug: OFS 0x003C0000
+Start      = 0x00100000
+Length     = 0x00380000
+End excl   = 0x00480000
+CRC word @ = 0x0047FFFC
+Stored CRC = 0xA3627C6E
+Calc CRC   = 0x00000000
+
+CRC debug: OFS full slot 0x00400000
+Start      = 0x00100000
+Length     = 0x00400000
+End excl   = 0x00500000
+CRC word @ = 0x004FFFFC
+Stored CRC = 0xF4F4F4F4
+Calc CRC   = 0xAB304744
+
+CRC debug: GNU at 0x00400000 length 0x00300000
+Start      = 0x00500000
+Length     = 0x00380000
+End excl   = 0x00880000
+CRC word @ = 0x0087FFFC
+Stored CRC = 0x45AC3060
+Calc CRC   = 0x22886B15
+
+CRC debug: GNU immediately after OFS length 0x00340000
+Start      = 0x00480000
+Length     = 0x00380000
+End excl   = 0x00800000
+CRC word @ = 0x007FFFFC
+Stored CRC = 0xA3627C6E
+Calc CRC   = 0x00000000
+
+Find OFS CRC marker C795AA2A
+RAM start  = 0x00100000
+Length     = 0x00700000
+Target     = 0xC795AA2A
+Target word not found
+
+Find GNU CRC marker 83F33C32
+RAM start  = 0x00100000
+Length     = 0x00700000
+Target     = 0x83F33C32
+Target word not found
+
+Programming OFS image into PROGRAM1 flash slot
+Verifying RAM image(s)
+ - Verified image CRC in RAM
+Erasing Flash
+RAM start        = 0x00100000
+RAM length       = 0x00380000
+Flash abs start  = 0xFE000000
+Flash offset     = 0x02000000
+Erase start off  = 0x02000000
+Erase end off    = 0x02380000
+Erase start abs  = 0xFE000000
+Erase end abs    = 0xFE37FFFF
+Erase sectors    = 56
+
+Erasing sector 1 / 56
+Erase offset = 0x02000000
+Erase abs    = 0xFE000000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 2 / 56
+Erase offset = 0x02010000
+Erase abs    = 0xFE010000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 3 / 56
+Erase offset = 0x02020000
+Erase abs    = 0xFE020000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 4 / 56
+Erase offset = 0x02030000
+Erase abs    = 0xFE030000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 5 / 56
+Erase offset = 0x02040000
+Erase abs    = 0xFE040000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 6 / 56
+Erase offset = 0x02050000
+Erase abs    = 0xFE050000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 7 / 56
+Erase offset = 0x02060000
+Erase abs    = 0xFE060000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 8 / 56
+Erase offset = 0x02070000
+Erase abs    = 0xFE070000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 9 / 56
+Erase offset = 0x02080000
+Erase abs    = 0xFE080000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 10 / 56
+Erase offset = 0x02090000
+Erase abs    = 0xFE090000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 11 / 56
+Erase offset = 0x020A0000
+Erase abs    = 0xFE0A0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 12 / 56
+Erase offset = 0x020B0000
+Erase abs    = 0xFE0B0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 13 / 56
+Erase offset = 0x020C0000
+Erase abs    = 0xFE0C0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 14 / 56
+Erase offset = 0x020D0000
+Erase abs    = 0xFE0D0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 15 / 56
+Erase offset = 0x020E0000
+Erase abs    = 0xFE0E0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 16 / 56
+Erase offset = 0x020F0000
+Erase abs    = 0xFE0F0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 17 / 56
+Erase offset = 0x02100000
+Erase abs    = 0xFE100000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 18 / 56
+Erase offset = 0x02110000
+Erase abs    = 0xFE110000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 19 / 56
+Erase offset = 0x02120000
+Erase abs    = 0xFE120000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 20 / 56
+Erase offset = 0x02130000
+Erase abs    = 0xFE130000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 21 / 56
+Erase offset = 0x02140000
+Erase abs    = 0xFE140000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 22 / 56
+Erase offset = 0x02150000
+Erase abs    = 0xFE150000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 23 / 56
+Erase offset = 0x02160000
+Erase abs    = 0xFE160000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 24 / 56
+Erase offset = 0x02170000
+Erase abs    = 0xFE170000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 25 / 56
+Erase offset = 0x02180000
+Erase abs    = 0xFE180000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 26 / 56
+Erase offset = 0x02190000
+Erase abs    = 0xFE190000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 27 / 56
+Erase offset = 0x021A0000
+Erase abs    = 0xFE1A0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 28 / 56
+Erase offset = 0x021B0000
+Erase abs    = 0xFE1B0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 29 / 56
+Erase offset = 0x021C0000
+Erase abs    = 0xFE1C0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 30 / 56
+Erase offset = 0x021D0000
+Erase abs    = 0xFE1D0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 31 / 56
+Erase offset = 0x021E0000
+Erase abs    = 0xFE1E0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 32 / 56
+Erase offset = 0x021F0000
+Erase abs    = 0xFE1F0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 33 / 56
+Erase offset = 0x02200000
+Erase abs    = 0xFE200000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 34 / 56
+Erase offset = 0x02210000
+Erase abs    = 0xFE210000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 35 / 56
+Erase offset = 0x02220000
+Erase abs    = 0xFE220000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 36 / 56
+Erase offset = 0x02230000
+Erase abs    = 0xFE230000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 37 / 56
+Erase offset = 0x02240000
+Erase abs    = 0xFE240000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 38 / 56
+Erase offset = 0x02250000
+Erase abs    = 0xFE250000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 39 / 56
+Erase offset = 0x02260000
+Erase abs    = 0xFE260000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 40 / 56
+Erase offset = 0x02270000
+Erase abs    = 0xFE270000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 41 / 56
+Erase offset = 0x02280000
+Erase abs    = 0xFE280000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 42 / 56
+Erase offset = 0x02290000
+Erase abs    = 0xFE290000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 43 / 56
+Erase offset = 0x022A0000
+Erase abs    = 0xFE2A0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 44 / 56
+Erase offset = 0x022B0000
+Erase abs    = 0xFE2B0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 45 / 56
+Erase offset = 0x022C0000
+Erase abs    = 0xFE2C0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 46 / 56
+Erase offset = 0x022D0000
+Erase abs    = 0xFE2D0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 47 / 56
+Erase offset = 0x022E0000
+Erase abs    = 0xFE2E0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 48 / 56
+Erase offset = 0x022F0000
+Erase abs    = 0xFE2F0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 49 / 56
+Erase offset = 0x02300000
+Erase abs    = 0xFE300000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 50 / 56
+Erase offset = 0x02310000
+Erase abs    = 0xFE310000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 51 / 56
+Erase offset = 0x02320000
+Erase abs    = 0xFE320000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 52 / 56
+Erase offset = 0x02330000
+Erase abs    = 0xFE330000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 53 / 56
+Erase offset = 0x02340000
+Erase abs    = 0xFE340000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 54 / 56
+Erase offset = 0x02350000
+Erase abs    = 0xFE350000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 55 / 56
+Erase offset = 0x02360000
+Erase abs    = 0xFE360000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 56 / 56
+Erase offset = 0x02370000
+Erase abs    = 0xFE370000
+Call flash_protect
+Sector erase complete
+
+Verify erased flash range begin
+Verify offset = 0x02000000
+Verify length = 0x00380000
+Verify erased bytes 0x00004000 / 0x00380000
+Verify erased bytes 0x00008000 / 0x00380000
+Verify erased bytes 0x0000C000 / 0x00380000
+Verify erased bytes 0x00010000 / 0x00380000
+Verify erased bytes 0x00014000 / 0x00380000
+Verify erased bytes 0x00018000 / 0x00380000
+Verify erased bytes 0x0001C000 / 0x00380000
+Verify erased bytes 0x00020000 / 0x00380000
+Verify erased bytes 0x00024000 / 0x00380000
+Verify erased bytes 0x00028000 / 0x00380000
+Verify erased bytes 0x0002C000 / 0x00380000
+Verify erased bytes 0x00030000 / 0x00380000
+Verify erased bytes 0x00034000 / 0x00380000
+Verify erased bytes 0x00038000 / 0x00380000
+Verify erased bytes 0x0003C000 / 0x00380000
+Verify erased bytes 0x00040000 / 0x00380000
+Verify erased bytes 0x00044000 / 0x00380000
+Verify erased bytes 0x00048000 / 0x00380000
+Verify erased bytes 0x0004C000 / 0x00380000
+Verify erased bytes 0x00050000 / 0x00380000
+Verify erased bytes 0x00054000 / 0x00380000
+Verify erased bytes 0x00058000 / 0x00380000
+Verify erased bytes 0x0005C000 / 0x00380000
+Verify erased bytes 0x00060000 / 0x00380000
+Verify erased bytes 0x00064000 / 0x00380000
+Verify erased bytes 0x00068000 / 0x00380000
+Verify erased bytes 0x0006C000 / 0x00380000
+Verify erased bytes 0x00070000 / 0x00380000
+Verify erased bytes 0x00074000 / 0x00380000
+Verify erased bytes 0x00078000 / 0x00380000
+Verify erased bytes 0x0007C000 / 0x00380000
+Verify erased bytes 0x00080000 / 0x00380000
+Verify erased bytes 0x00084000 / 0x00380000
+Verify erased bytes 0x00088000 / 0x00380000
+Verify erased bytes 0x0008C000 / 0x00380000
+Verify erased bytes 0x00090000 / 0x00380000
+Verify erased bytes 0x00094000 / 0x00380000
+Verify erased bytes 0x00098000 / 0x00380000
+Verify erased bytes 0x0009C000 / 0x00380000
+Verify erased bytes 0x000A0000 / 0x00380000
+Verify erased bytes 0x000A4000 / 0x00380000
+Verify erased bytes 0x000A8000 / 0x00380000
+Verify erased bytes 0x000AC000 / 0x00380000
+Verify erased bytes 0x000B0000 / 0x00380000
+Verify erased bytes 0x000B4000 / 0x00380000
+Verify erased bytes 0x000B8000 / 0x00380000
+Verify erased bytes 0x000BC000 / 0x00380000
+Verify erased bytes 0x000C0000 / 0x00380000
+Verify erased bytes 0x000C4000 / 0x00380000
+Verify erased bytes 0x000C8000 / 0x00380000
+Verify erased bytes 0x000CC000 / 0x00380000
+Verify erased bytes 0x000D0000 / 0x00380000
+Verify erased bytes 0x000D4000 / 0x00380000
+Verify erased bytes 0x000D8000 / 0x00380000
+Verify erased bytes 0x000DC000 / 0x00380000
+Verify erased bytes 0x000E0000 / 0x00380000
+Verify erased bytes 0x000E4000 / 0x00380000
+Verify erased bytes 0x000E8000 / 0x00380000
+Verify erased bytes 0x000EC000 / 0x00380000
+Verify erased bytes 0x000F0000 / 0x00380000
+Verify erased bytes 0x000F4000 / 0x00380000
+Verify erased bytes 0x000F8000 / 0x00380000
+Verify erased bytes 0x000FC000 / 0x00380000
+Verify erased bytes 0x00100000 / 0x00380000
+Verify erased bytes 0x00104000 / 0x00380000
+Verify erased bytes 0x00108000 / 0x00380000
+Verify erased bytes 0x0010C000 / 0x00380000
+Verify erased bytes 0x00110000 / 0x00380000
+Verify erased bytes 0x00114000 / 0x00380000
+Verify erased bytes 0x00118000 / 0x00380000
+Verify erased bytes 0x0011C000 / 0x00380000
+Verify erased bytes 0x00120000 / 0x00380000
+Verify erased bytes 0x00124000 / 0x00380000
+Verify erased bytes 0x00128000 / 0x00380000
+Verify erased bytes 0x0012C000 / 0x00380000
+Verify erased bytes 0x00130000 / 0x00380000
+Verify erased bytes 0x00134000 / 0x00380000
+Verify erased bytes 0x00138000 / 0x00380000
+Verify erased bytes 0x0013C000 / 0x00380000
+Verify erased bytes 0x00140000 / 0x00380000
+Verify erased bytes 0x00144000 / 0x00380000
+Verify erased bytes 0x00148000 / 0x00380000
+Verify erased bytes 0x0014C000 / 0x00380000
+Verify erased bytes 0x00150000 / 0x00380000
+Verify erased bytes 0x00154000 / 0x00380000
+Verify erased bytes 0x00158000 / 0x00380000
+Verify erased bytes 0x0015C000 / 0x00380000
+Verify erased bytes 0x00160000 / 0x00380000
+Verify erased bytes 0x00164000 / 0x00380000
+Verify erased bytes 0x00168000 / 0x00380000
+Verify erased bytes 0x0016C000 / 0x00380000
+Verify erased bytes 0x00170000 / 0x00380000
+Verify erased bytes 0x00174000 / 0x00380000
+Verify erased bytes 0x00178000 / 0x00380000
+Verify erased bytes 0x0017C000 / 0x00380000
+Verify erased bytes 0x00180000 / 0x00380000
+Verify erased bytes 0x00184000 / 0x00380000
+Verify erased bytes 0x00188000 / 0x00380000
+Verify erased bytes 0x0018C000 / 0x00380000
+Verify erased bytes 0x00190000 / 0x00380000
+Verify erased bytes 0x00194000 / 0x00380000
+Verify erased bytes 0x00198000 / 0x00380000
+Verify erased bytes 0x0019C000 / 0x00380000
+Verify erased bytes 0x001A0000 / 0x00380000
+Verify erased bytes 0x001A4000 / 0x00380000
+Verify erased bytes 0x001A8000 / 0x00380000
+Verify erased bytes 0x001AC000 / 0x00380000
+Verify erased bytes 0x001B0000 / 0x00380000
+Verify erased bytes 0x001B4000 / 0x00380000
+Verify erased bytes 0x001B8000 / 0x00380000
+Verify erased bytes 0x001BC000 / 0x00380000
+Verify erased bytes 0x001C0000 / 0x00380000
+Verify erased bytes 0x001C4000 / 0x00380000
+Verify erased bytes 0x001C8000 / 0x00380000
+Verify erased bytes 0x001CC000 / 0x00380000
+Verify erased bytes 0x001D0000 / 0x00380000
+Verify erased bytes 0x001D4000 / 0x00380000
+Verify erased bytes 0x001D8000 / 0x00380000
+Verify erased bytes 0x001DC000 / 0x00380000
+Verify erased bytes 0x001E0000 / 0x00380000
+Verify erased bytes 0x001E4000 / 0x00380000
+Verify erased bytes 0x001E8000 / 0x00380000
+Verify erased bytes 0x001EC000 / 0x00380000
+Verify erased bytes 0x001F0000 / 0x00380000
+Verify erased bytes 0x001F4000 / 0x00380000
+Verify erased bytes 0x001F8000 / 0x00380000
+Verify erased bytes 0x001FC000 / 0x00380000
+Verify erased bytes 0x00200000 / 0x00380000
+Verify erased bytes 0x00204000 / 0x00380000
+Verify erased bytes 0x00208000 / 0x00380000
+Verify erased bytes 0x0020C000 / 0x00380000
+Verify erased bytes 0x00210000 / 0x00380000
+Verify erased bytes 0x00214000 / 0x00380000
+Verify erased bytes 0x00218000 / 0x00380000
+Verify erased bytes 0x0021C000 / 0x00380000
+Verify erased bytes 0x00220000 / 0x00380000
+Verify erased bytes 0x00224000 / 0x00380000
+Verify erased bytes 0x00228000 / 0x00380000
+Verify erased bytes 0x0022C000 / 0x00380000
+Verify erased bytes 0x00230000 / 0x00380000
+Verify erased bytes 0x00234000 / 0x00380000
+Verify erased bytes 0x00238000 / 0x00380000
+Verify erased bytes 0x0023C000 / 0x00380000
+Verify erased bytes 0x00240000 / 0x00380000
+Verify erased bytes 0x00244000 / 0x00380000
+Verify erased bytes 0x00248000 / 0x00380000
+Verify erased bytes 0x0024C000 / 0x00380000
+Verify erased bytes 0x00250000 / 0x00380000
+Verify erased bytes 0x00254000 / 0x00380000
+Verify erased bytes 0x00258000 / 0x00380000
+Verify erased bytes 0x0025C000 / 0x00380000
+Verify erased bytes 0x00260000 / 0x00380000
+Verify erased bytes 0x00264000 / 0x00380000
+Verify erased bytes 0x00268000 / 0x00380000
+Verify erased bytes 0x0026C000 / 0x00380000
+Verify erased bytes 0x00270000 / 0x00380000
+Verify erased bytes 0x00274000 / 0x00380000
+Verify erased bytes 0x00278000 / 0x00380000
+Verify erased bytes 0x0027C000 / 0x00380000
+Verify erased bytes 0x00280000 / 0x00380000
+Verify erased bytes 0x00284000 / 0x00380000
+Verify erased bytes 0x00288000 / 0x00380000
+Verify erased bytes 0x0028C000 / 0x00380000
+Verify erased bytes 0x00290000 / 0x00380000
+Verify erased bytes 0x00294000 / 0x00380000
+Verify erased bytes 0x00298000 / 0x00380000
+Verify erased bytes 0x0029C000 / 0x00380000
+Verify erased bytes 0x002A0000 / 0x00380000
+Verify erased bytes 0x002A4000 / 0x00380000
+Verify erased bytes 0x002A8000 / 0x00380000
+Verify erased bytes 0x002AC000 / 0x00380000
+Verify erased bytes 0x002B0000 / 0x00380000
+Verify erased bytes 0x002B4000 / 0x00380000
+Verify erased bytes 0x002B8000 / 0x00380000
+Verify erased bytes 0x002BC000 / 0x00380000
+Verify erased bytes 0x002C0000 / 0x00380000
+Verify erased bytes 0x002C4000 / 0x00380000
+Verify erased bytes 0x002C8000 / 0x00380000
+Verify erased bytes 0x002CC000 / 0x00380000
+Verify erased bytes 0x002D0000 / 0x00380000
+Verify erased bytes 0x002D4000 / 0x00380000
+Verify erased bytes 0x002D8000 / 0x00380000
+Verify erased bytes 0x002DC000 / 0x00380000
+Verify erased bytes 0x002E0000 / 0x00380000
+Verify erased bytes 0x002E4000 / 0x00380000
+Verify erased bytes 0x002E8000 / 0x00380000
+Verify erased bytes 0x002EC000 / 0x00380000
+Verify erased bytes 0x002F0000 / 0x00380000
+Verify erased bytes 0x002F4000 / 0x00380000
+Verify erased bytes 0x002F8000 / 0x00380000
+Verify erased bytes 0x002FC000 / 0x00380000
+Verify erased bytes 0x00300000 / 0x00380000
+Verify erased bytes 0x00304000 / 0x00380000
+Verify erased bytes 0x00308000 / 0x00380000
+Verify erased bytes 0x0030C000 / 0x00380000
+Verify erased bytes 0x00310000 / 0x00380000
+Verify erased bytes 0x00314000 / 0x00380000
+Verify erased bytes 0x00318000 / 0x00380000
+Verify erased bytes 0x0031C000 / 0x00380000
+Verify erased bytes 0x00320000 / 0x00380000
+Verify erased bytes 0x00324000 / 0x00380000
+Verify erased bytes 0x00328000 / 0x00380000
+Verify erased bytes 0x0032C000 / 0x00380000
+Verify erased bytes 0x00330000 / 0x00380000
+Verify erased bytes 0x00334000 / 0x00380000
+Verify erased bytes 0x00338000 / 0x00380000
+Verify erased bytes 0x0033C000 / 0x00380000
+Verify erased bytes 0x00340000 / 0x00380000
+Verify erased bytes 0x00344000 / 0x00380000
+Verify erased bytes 0x00348000 / 0x00380000
+Verify erased bytes 0x0034C000 / 0x00380000
+Verify erased bytes 0x00350000 / 0x00380000
+Verify erased bytes 0x00354000 / 0x00380000
+Verify erased bytes 0x00358000 / 0x00380000
+Verify erased bytes 0x0035C000 / 0x00380000
+Verify erased bytes 0x00360000 / 0x00380000
+Verify erased bytes 0x00364000 / 0x00380000
+Verify erased bytes 0x00368000 / 0x00380000
+Verify erased bytes 0x0036C000 / 0x00380000
+Verify erased bytes 0x00370000 / 0x00380000
+Verify erased bytes 0x00374000 / 0x00380000
+Verify erased bytes 0x00378000 / 0x00380000
+Verify erased bytes 0x0037C000 / 0x00380000
+Verify erased bytes 0x00380000 / 0x00380000
+Verify erased flash range complete
+Complete
+Writing:
+Writing bytes 0x00000000 / 0x00380000
+Write offset = 0x02000000
+Write abs    = 0xFE000000
+RAM source   = 0x00100000
+Unlock Status = 0x00000000
+Write Status = 0x00000067
+**** Flash write failure ****
+Status = 0x00000067
+Writing Failed
+
+Programming GNU Diagnostics image into PROGRAM2 flash slot
+Verifying RAM image(s)
+ - Verified image CRC in RAM
+Erasing Flash
+RAM start        = 0x00480000
+RAM length       = 0x00380000
+Flash abs start  = 0xFE380000
+Flash offset     = 0x02380000
+Erase start off  = 0x02380000
+Erase end off    = 0x02700000
+Erase start abs  = 0xFE380000
+Erase end abs    = 0xFE6FFFFF
+Erase sectors    = 56
+
+Erasing sector 1 / 56
+Erase offset = 0x02380000
+Erase abs    = 0xFE380000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 2 / 56
+Erase offset = 0x02390000
+Erase abs    = 0xFE390000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 3 / 56
+Erase offset = 0x023A0000
+Erase abs    = 0xFE3A0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 4 / 56
+Erase offset = 0x023B0000
+Erase abs    = 0xFE3B0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 5 / 56
+Erase offset = 0x023C0000
+Erase abs    = 0xFE3C0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 6 / 56
+Erase offset = 0x023D0000
+Erase abs    = 0xFE3D0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 7 / 56
+Erase offset = 0x023E0000
+Erase abs    = 0xFE3E0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 8 / 56
+Erase offset = 0x023F0000
+Erase abs    = 0xFE3F0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 9 / 56
+Erase offset = 0x02400000
+Erase abs    = 0xFE400000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 10 / 56
+Erase offset = 0x02410000
+Erase abs    = 0xFE410000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 11 / 56
+Erase offset = 0x02420000
+Erase abs    = 0xFE420000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 12 / 56
+Erase offset = 0x02430000
+Erase abs    = 0xFE430000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 13 / 56
+Erase offset = 0x02440000
+Erase abs    = 0xFE440000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 14 / 56
+Erase offset = 0x02450000
+Erase abs    = 0xFE450000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 15 / 56
+Erase offset = 0x02460000
+Erase abs    = 0xFE460000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 16 / 56
+Erase offset = 0x02470000
+Erase abs    = 0xFE470000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 17 / 56
+Erase offset = 0x02480000
+Erase abs    = 0xFE480000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 18 / 56
+Erase offset = 0x02490000
+Erase abs    = 0xFE490000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 19 / 56
+Erase offset = 0x024A0000
+Erase abs    = 0xFE4A0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 20 / 56
+Erase offset = 0x024B0000
+Erase abs    = 0xFE4B0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 21 / 56
+Erase offset = 0x024C0000
+Erase abs    = 0xFE4C0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 22 / 56
+Erase offset = 0x024D0000
+Erase abs    = 0xFE4D0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 23 / 56
+Erase offset = 0x024E0000
+Erase abs    = 0xFE4E0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 24 / 56
+Erase offset = 0x024F0000
+Erase abs    = 0xFE4F0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 25 / 56
+Erase offset = 0x02500000
+Erase abs    = 0xFE500000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 26 / 56
+Erase offset = 0x02510000
+Erase abs    = 0xFE510000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 27 / 56
+Erase offset = 0x02520000
+Erase abs    = 0xFE520000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 28 / 56
+Erase offset = 0x02530000
+Erase abs    = 0xFE530000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 29 / 56
+Erase offset = 0x02540000
+Erase abs    = 0xFE540000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 30 / 56
+Erase offset = 0x02550000
+Erase abs    = 0xFE550000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 31 / 56
+Erase offset = 0x02560000
+Erase abs    = 0xFE560000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 32 / 56
+Erase offset = 0x02570000
+Erase abs    = 0xFE570000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 33 / 56
+Erase offset = 0x02580000
+Erase abs    = 0xFE580000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 34 / 56
+Erase offset = 0x02590000
+Erase abs    = 0xFE590000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 35 / 56
+Erase offset = 0x025A0000
+Erase abs    = 0xFE5A0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 36 / 56
+Erase offset = 0x025B0000
+Erase abs    = 0xFE5B0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 37 / 56
+Erase offset = 0x025C0000
+Erase abs    = 0xFE5C0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 38 / 56
+Erase offset = 0x025D0000
+Erase abs    = 0xFE5D0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 39 / 56
+Erase offset = 0x025E0000
+Erase abs    = 0xFE5E0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 40 / 56
+Erase offset = 0x025F0000
+Erase abs    = 0xFE5F0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 41 / 56
+Erase offset = 0x02600000
+Erase abs    = 0xFE600000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 42 / 56
+Erase offset = 0x02610000
+Erase abs    = 0xFE610000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 43 / 56
+Erase offset = 0x02620000
+Erase abs    = 0xFE620000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 44 / 56
+Erase offset = 0x02630000
+Erase abs    = 0xFE630000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 45 / 56
+Erase offset = 0x02640000
+Erase abs    = 0xFE640000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 46 / 56
+Erase offset = 0x02650000
+Erase abs    = 0xFE650000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 47 / 56
+Erase offset = 0x02660000
+Erase abs    = 0xFE660000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 48 / 56
+Erase offset = 0x02670000
+Erase abs    = 0xFE670000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 49 / 56
+Erase offset = 0x02680000
+Erase abs    = 0xFE680000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 50 / 56
+Erase offset = 0x02690000
+Erase abs    = 0xFE690000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 51 / 56
+Erase offset = 0x026A0000
+Erase abs    = 0xFE6A0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 52 / 56
+Erase offset = 0x026B0000
+Erase abs    = 0xFE6B0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 53 / 56
+Erase offset = 0x026C0000
+Erase abs    = 0xFE6C0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 54 / 56
+Erase offset = 0x026D0000
+Erase abs    = 0xFE6D0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 55 / 56
+Erase offset = 0x026E0000
+Erase abs    = 0xFE6E0000
+Call flash_protect
+Sector erase complete
+
+Erasing sector 56 / 56
+Erase offset = 0x026F0000
+Erase abs    = 0xFE6F0000
+Call flash_protect
+Sector erase complete
+
+Verify erased flash range begin
+Verify offset = 0x02380000
+Verify length = 0x00380000
+Verify erased bytes 0x00004000 / 0x00380000
+Verify erased bytes 0x00008000 / 0x00380000
+Verify erased bytes 0x0000C000 / 0x00380000
+Verify erased bytes 0x00010000 / 0x00380000
+Verify erased bytes 0x00014000 / 0x00380000
+Verify erased bytes 0x00018000 / 0x00380000
+Verify erased bytes 0x0001C000 / 0x00380000
+Verify erased bytes 0x00020000 / 0x00380000
+Verify erased bytes 0x00024000 / 0x00380000
+Verify erased bytes 0x00028000 / 0x00380000
+Verify erased bytes 0x0002C000 / 0x00380000
+Verify erased bytes 0x00030000 / 0x00380000
+Verify erased bytes 0x00034000 / 0x00380000
+Verify erased bytes 0x00038000 / 0x00380000
+Verify erased bytes 0x0003C000 / 0x00380000
+Verify erased bytes 0x00040000 / 0x00380000
+Verify erased bytes 0x00044000 / 0x00380000
+Verify erased bytes 0x00048000 / 0x00380000
+Verify erased bytes 0x0004C000 / 0x00380000
+Verify erased bytes 0x00050000 / 0x00380000
+Verify erased bytes 0x00054000 / 0x00380000
+Verify erased bytes 0x00058000 / 0x00380000
+Verify erased bytes 0x0005C000 / 0x00380000
+Verify erased bytes 0x00060000 / 0x00380000
+Verify erased bytes 0x00064000 / 0x00380000
+Verify erased bytes 0x00068000 / 0x00380000
+Verify erased bytes 0x0006C000 / 0x00380000
+Verify erased bytes 0x00070000 / 0x00380000
+Verify erased bytes 0x00074000 / 0x00380000
+Verify erased bytes 0x00078000 / 0x00380000
+Verify erased bytes 0x0007C000 / 0x00380000
+Verify erased bytes 0x00080000 / 0x00380000
+Verify erased bytes 0x00084000 / 0x00380000
+Verify erased bytes 0x00088000 / 0x00380000
+Verify erased bytes 0x0008C000 / 0x00380000
+Verify erased bytes 0x00090000 / 0x00380000
+Verify erased bytes
+Verify erased bytes 0x0031C000 / 0x00380000
+Verify erased bytes 0x00320000 / 0x00380000
+Verify erased bytes 0x00324000 / 0x00380000
+Verify erased bytes 0x00328000 / 0x00380000
+Verify erased bytes 0x0032C000 / 0x00380000
+Verify erased bytes 0x00330000 / 0x00380000
+Verify erased bytes 0x00334000 / 0x00380000
+Verify erased bytes 0x00338000 / 0x00380000
+Verify erased bytes 0x0033C000 / 0x00380000
+Verify erased bytes 0x00340000 / 0x00380000
+Verify erased bytes 0x00344000 / 0x00380000
+Verify erased bytes 0x00348000 / 0x00380000
+Verify erased bytes 0x0034C000 / 0x00380000
+Verify erased bytes 0x00350000 / 0x00380000
+Verify erased bytes 0x00354000 / 0x00380000
+Verify erased bytes 0x00358000 / 0x00380000
+Verify erased bytes 0x0035C000 / 0x00380000
+Verify erased bytes 0x00360000 / 0x00380000
+Verify erased bytes 0x00364000 / 0x00380000
+Verify erased bytes 0x00368000 / 0x00380000
+Verify erased bytes 0x0036C000 / 0x00380000
+Verify erased bytes 0x00370000 / 0x00380000
+Verify erased bytes 0x00374000 / 0x00380000
+Verify erased bytes 0x00378000 / 0x00380000
+Verify erased bytes 0x0037C000 / 0x00380000
+Verify erased bytes 0x00380000 / 0x00380000
+Verify erased flash range complete
+Complete
+Writing:
+Writing bytes 0x00000000 / 0x00380000
+Write offset = 0x02380000
+Write abs    = 0xFE380000
+RAM source   = 0x00480000
+Unlock Status = 0x00000000
+Write Status = 0x00000067
+**** Flash write failure ****
+Status = 0x00000067
+Writing Failed
+
+=================================================
+Skipping Download Table update
+Reason: one or more image loads failed
+
+=========================
+**** FAILED ****
+=========================
